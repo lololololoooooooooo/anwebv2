@@ -1,97 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AN Electronics – Smarter Power. Safer Systems.</title>
-  <meta name="description" content="AN Electronics engineers smarter energy solutions: battery management systems, IoT monitoring, and custom embedded electronics.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔋</text></svg>">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@400;500&display=swap">
-  <style>
-    :root{
-      --brand:#1D8A99;
-      --text:#1C2627;
-      --bg:#fff;
-      --dark:#030E0F;
-    }
-    *{margin:0;padding:0;box-sizing:border-box}
-    body{font-family:Inter,system-ui,Arial,sans-serif;color:var(--text);font-size:1rem;line-height:1.5}
-    h1,h2,h3,h4,h5,h6{font-family:Roboto,system-ui,Arial,sans-serif;font-weight:500;color:var(--dark)}
-    img{max-width:100%;display:block}
-    section{padding:100px 24px}
-    .hero{background:url('https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/GeminiGeneratedImageuw1ws2uw1ws2uw1w-tckwM.png') center/cover;color:#fff;text-align:center}
-    .hero h1{font-size:clamp(2.5rem,6vw,5rem);margin-bottom:.5em}
-    .btn{background:var(--brand);color:#fff;padding:.75rem 1.5rem;border:none;border-radius:4px;text-decoration:none;display:inline-block}
-    .grid{display:grid;gap:2rem}
-    @media(min-width:768px){.grid{grid-template-columns:repeat(2,1fr)}}
-    footer{background:#f7f7f7;padding:60px 24px 30px;text-align:center}
-    footer ul{list-style:none;display:flex;justify-content:center;gap:1rem;margin-top:.5rem}
-    .hidden{display:none}
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab | Modern Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2949/2949032.png" />
 </head>
-<body>
+<body class="bg-gray-50 text-gray-900 font-sans">
 
-<!-- HERO -->
-<section class="hero">
-  <h1>Intelligent Power</h1>
-  <p>Smarter Power. Safer Systems. Real Innovation.</p>
-</section>
-
-<!-- ABOUT -->
-<section>
-  <h2>Engineering smarter energy solutions</h2>
-  <div class="grid">
-    <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/8a4e29cfaa3241c9976c3ed9fdb8c811-bFX37.png" alt="Energy innovation">
-    <div>
-      <p>AN Electronics is an innovative startup dedicated to creating state-of-the-art electronics hardware and software for the energy infrastructure of the future.</p>
-      <a class="btn" href="#products">Learn more</a>
+  <!-- Top Navigation Bar -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-600 tracking-wide">🧪 LabLabLab</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition">Home</a>
+        <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition">About</a>
+        <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition">Projects</a>
+        <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition">Contact</a>
+      </nav>
+      <button class="md:hidden text-blue-600 focus:outline-none text-2xl">☰</button>
     </div>
-  </div>
-</section>
+  </header>
 
-<!-- PRODUCTS -->
-<section id="products">
-  <h2>Our Products & Services</h2>
-  <div class="grid">
-    <article>
-      <h3>Smart SoC Modules</h3>
-      <p>Real-time battery percentage display, EV-ready.</p>
-      <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/8a4e29cfaa3241c9976c3ed9fdb8c811-bFX37.png" alt="Smart chip">
-    </article>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-100 to-blue-200 py-24 text-center">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">Welcome to LabLabLab</h2>
+    <p class="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto">
+      Building Smart, Sustainable, and Next-Gen Electronics Projects. 🚀🔋⚡
+    </p>
+  </section>
 
-    <article>
-      <h3>Custom BMS</h3>
-      <p>3S–16S battery packs with full protection.</p>
-      <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/postaiimage18824-iuZU4.png" alt="Battery pack">
-    </article>
+  <!-- Main Content -->
+  <main class="max-w-6xl mx-auto px-4 py-16 space-y-12">
+    <!-- Add your sections here -->
+    <section>
+      <h3 class="text-2xl font-semibold mb-4">🧠 Smart Systems</h3>
+      <p class="text-gray-700">We design custom Battery Management Systems and Smart SoC indicators.</p>
+    </section>
 
-    <article>
-      <h3>IoT Battery Monitoring</h3>
-      <p>Live data via Wi-Fi / GSM for remote tracking.</p>
-      <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/iotremotemonitoring-_80CN.jpg" alt="Dashboard">
-    </article>
-  </div>
-</section>
+    <section>
+      <h3 class="text-2xl font-semibold mb-4">📡 IoT Integrations</h3>
+      <p class="text-gray-700">Connect your devices for real-time control and monitoring.</p>
+    </section>
 
-<!-- CONTACT -->
-<section>
-  <h2>Contact Us</h2>
-  <p>Phone: <a href="tel:+918788766758">+91 87887 66758</a></p>
-  <p>Email: <a href="mailto:info@anelectronics.com">info@anelectronics.com</a></p>
-  <p><a href="https://api.whatsapp.com/send?phone=918788766758&text=Hi%20ANElectronics" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
-</section>
+    <section>
+      <h3 class="text-2xl font-semibold mb-4">🌱 Sustainable Energy</h3>
+      <p class="text-gray-700">Low degradation lithium-ion packs engineered for durability and performance.</p>
+    </section>
+  </main>
 
-<!-- FOOTER -->
-<footer>
-  <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/nobackground-J3v0q.png" alt="AN Electronics" width="120">
-  <p>AN Electronics specializes in smarter power management and safer battery systems.</p>
-  <ul>
-    <li><a href="https://facebook.com/">Facebook</a></li>
-    <li><a href="https://twitter.com/">Twitter</a></li>
-    <li><a href="https://linkedin.com/company/anelectronics">LinkedIn</a></li>
-  </ul>
-  <small>© 2025 AN Electronics</small>
-</footer>
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-6 mt-16 text-center text-sm text-gray-600">
+    © 2025 LabLabLab. All rights reserved.
+  </footer>
 
 </body>
 </html>
