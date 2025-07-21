@@ -1,0 +1,236 @@
+Uri: https://assets.dorik.io/shared/aos.css
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\shared\aos.css
+Content Type: text/css
+
+Uri: https://assets.dorik.io/shared/aos.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\shared\aos.js
+Content Type: text/javascript
+
+Uri: https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/8a4e29cfaa3241c9976c3ed9fdb8c811-bFX37.png
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\687e00e078581a0013b2ebe7\images\8a4e29cfaa3241c9976c3ed9fdb8c811-bFX37.png
+Content Type: image/png
+
+Uri: https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/960pxSEGDVD430Printedcircuitboard4276-SuOoG.webp
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\687e00e078581a0013b2ebe7\images\960pxSEGDVD430Printedcircuitboard4276-SuOoG.webp
+Content Type: image/webp
+
+Uri: https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/GeminiGeneratedImageuw1ws2uw1ws2uw1w-tckwM.png
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\687e00e078581a0013b2ebe7\images\GeminiGeneratedImageuw1ws2uw1ws2uw1w-tckwM.png
+Content Type: image/png
+
+Uri: https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/HomeWelcome1-1T4eO.jpg
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\687e00e078581a0013b2ebe7\images\HomeWelcome1-1T4eO.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/iotremotemonitoring-_80CN.jpg
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\687e00e078581a0013b2ebe7\images\iotremotemonitoring-_80CN.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/LogoWhatsApp700x3941-55GK-.webp
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\687e00e078581a0013b2ebe7\images\LogoWhatsApp700x3941-55GK-.webp
+Content Type: image/webp
+
+Uri: https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/nobackground-J3v0q.png
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\687e00e078581a0013b2ebe7\images\nobackground-J3v0q.png
+Content Type: image/png
+
+Uri: https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/postaiimage18824-iuZU4.png
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\687e00e078581a0013b2ebe7\images\postaiimage18824-iuZU4.png
+Content Type: image/png
+
+Uri: https://cdn.dorik.com/common/jquery-3.5.1.min.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\common\jquery-3.5.1.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.cmsfly.com/css?family=Inter:400,500,600|Roboto:400,500&display=swap
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\css
+Content Type: text/css
+
+Uri: https://fonts.cmsfly.com/file/s/inter/v19/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\inter\v19\UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/inter/v19/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\inter\v19\UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/inter/v19/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\inter\v19\UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/inter/v19/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\inter\v19\UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/inter/v19/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\inter\v19\UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/inter/v19/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\inter\v19\UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/inter/v19/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\inter\v19\UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBHMdazTgWw.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\roboto\v48\KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBHMdazTgWw.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBHMdazTgWw.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\roboto\v48\KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBHMdazTgWw.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBHMdazTgWw.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\roboto\v48\KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBHMdazTgWw.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBHMdazTgWw.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\roboto\v48\KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBHMdazTgWw.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBHMdazTgWw.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\roboto\v48\KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBHMdazTgWw.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBHMdazTgWw.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\roboto\v48\KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBHMdazTgWw.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\roboto\v48\KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBHMdazTgWw.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\roboto\v48\KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBHMdazTgWw.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.cmsfly.com/file/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBHMdazTgWw.woff2
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\file\s\roboto\v48\KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBHMdazTgWw.woff2
+Content Type: font/woff2
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\index.htm
+Content Type: text/html
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/cdn-cgi/images/browser-bar.png?1376755637
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\cdn-cgi\images\browser-bar.png
+Content Type: image/png
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/cdn-cgi/images/cf-icon-browser.png
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\cdn-cgi\images\cf-icon-browser.png
+Content Type: image/png
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/cdn-cgi/images/cf-icon-cloud.png
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\cdn-cgi\images\cf-icon-cloud.png
+Content Type: image/png
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/cdn-cgi/images/cf-icon-error.png
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\cdn-cgi\images\cf-icon-error.png
+Content Type: image/png
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/cdn-cgi/images/cf-icon-horizontal-arrow.png
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\cdn-cgi\images\cf-icon-horizontal-arrow.png
+Content Type: image/png
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/cdn-cgi/images/cf-icon-ok.png
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\cdn-cgi\images\cf-icon-ok.png
+Content Type: image/png
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/cdn-cgi/images/cf-icon-server.png
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\cdn-cgi\images\cf-icon-server.png
+Content Type: image/png
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/cdn-cgi/images/cf-no-screenshot-error.png
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\cdn-cgi\images\cf-no-screenshot-error.png
+Content Type: image/png
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/cdn-cgi/images/cf-no-screenshot-warn.png
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\cdn-cgi\images\cf-no-screenshot-warn.png
+Content Type: image/png
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/cdn-cgi/images/icon-exclamation.png?1376755637
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\cdn-cgi\images\icon-exclamation.png
+Content Type: image/png
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/cdn-cgi/l/email-protection
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\cdn-cgi\l\email-protection.html
+Content Type: text/html
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\cdn-cgi\scripts\5c5dd728\cloudflare-static\email-decode.min.js
+Content Type: application/javascript
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/cdn-cgi/styles/cf.errors.css
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\cdn-cgi\styles\cf.errors.css
+Content Type: text/css
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/css/main.css
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\css (1)\main.css
+Content Type: text/css
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/chunks/265-9213302d504657d9.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\chunks\265-9213302d504657d9.js
+Content Type: application/javascript
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/chunks/507-0bd882d3e56caa65.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\chunks\507-0bd882d3e56caa65.js
+Content Type: application/javascript
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/chunks/517-d8d70b92489c5e2e.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\chunks\517-d8d70b92489c5e2e.js
+Content Type: application/javascript
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/chunks/702-c39113387794b805.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\chunks\702-c39113387794b805.js
+Content Type: application/javascript
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/chunks/733-797d1196f4b9e8f1.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\chunks\733-797d1196f4b9e8f1.js
+Content Type: application/javascript
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/chunks/773-b117a85467b93b52.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\chunks\773-b117a85467b93b52.js
+Content Type: application/javascript
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/chunks/framework-0bff4c72fef67389.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\chunks\framework-0bff4c72fef67389.js
+Content Type: application/javascript
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/chunks/main-1a8c9ca0d496bc02.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\chunks\main-1a8c9ca0d496bc02.js
+Content Type: application/javascript
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/chunks/pages/[domain]-9cb7ae9ac27815ef.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\chunks\pages\[domain]-9cb7ae9ac27815ef.js
+Content Type: application/javascript
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/chunks/pages/_app-d7b2d42da9429117.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\chunks\pages\_app-d7b2d42da9429117.js
+Content Type: application/javascript
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\chunks\polyfills-c67a75d1b6f99dc8.js
+Content Type: application/javascript
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/chunks/webpack-abb3ffd122ab6478.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\chunks\webpack-abb3ffd122ab6478.js
+Content Type: application/javascript
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/css/5874861fc5b721cd.css
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\css\5874861fc5b721cd.css
+Content Type: text/css
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/css/f4eb53a52d624a1e.css
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\css\f4eb53a52d624a1e.css
+Content Type: text/css
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/TUxoMzuJZC7Fb8q8hXHAh/_buildManifest.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\TUxoMzuJZC7Fb8q8hXHAh\_buildManifest.js
+Content Type: application/javascript
+
+Uri: https://terrible-jaquelin-tpjdc9tw.dcms.site/_next/static/TUxoMzuJZC7Fb8q8hXHAh/_ssgManifest.js
+File Name: F:\websitw image s\web copy\terrible-jaquelin-tpjdc9tw.dcms.site\_next\static\TUxoMzuJZC7Fb8q8hXHAh\_ssgManifest.js
+Content Type: application/javascript
+
