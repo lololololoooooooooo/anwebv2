@@ -2,56 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lab | Modern Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LabLabLab | Modern Electronics</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2949/2949032.png" />
+  <link rel="icon" href="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/LogoWhatsApp700x3941-55GK-.webp" />
+  <style>
+    .glass {
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+  </style>
 </head>
-<body class="bg-gray-50 text-gray-900 font-sans">
+<body class="font-sans bg-gray-50 text-gray-900">
 
-  <!-- Top Navigation Bar -->
-  <header class="bg-white shadow-md sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-      <h1 class="text-xl font-bold text-blue-600 tracking-wide">🧪 LabLabLab</h1>
-      <nav class="space-x-6 hidden md:flex">
-        <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition">Home</a>
-        <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition">About</a>
-        <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition">Projects</a>
-        <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition">Contact</a>
+  <!-- Navbar -->
+  <header class="fixed top-0 w-full z-50 glass shadow-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <div class="text-xl font-bold text-blue-600 flex items-center gap-2">
+        <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/nobackground-J3v0q.png" class="h-8 w-8" alt="logo">
+        LabLabLab
+      </div>
+      <nav class="hidden md:flex space-x-6 font-medium">
+        <a href="#" class="hover:text-blue-600 transition">Home</a>
+        <a href="#" class="hover:text-blue-600 transition">About</a>
+        <a href="#" class="hover:text-blue-600 transition">Projects</a>
+        <a href="#" class="hover:text-blue-600 transition">Contact</a>
       </nav>
-      <button class="md:hidden text-blue-600 focus:outline-none text-2xl">☰</button>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="bg-gradient-to-r from-blue-100 to-blue-200 py-24 text-center">
-    <h2 class="text-4xl md:text-5xl font-bold mb-4">Welcome to LabLabLab</h2>
-    <p class="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto">
-      Building Smart, Sustainable, and Next-Gen Electronics Projects. 🚀🔋⚡
-    </p>
+  <section class="h-[90vh] bg-cover bg-center flex items-center justify-center text-center text-white" style="background-image: url('https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/GeminiGeneratedImageuw1ws2uw1ws2uw1w-tckwM.png');">
+    <div class="bg-black/50 p-6 rounded-lg shadow-lg">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to LabLabLab</h1>
+      <p class="text-lg md:text-xl">Building Smart, Sustainable, and Next-Gen Electronics Projects ⚡🔋📡</p>
+    </div>
   </section>
 
   <!-- Main Content -->
-  <main class="max-w-6xl mx-auto px-4 py-16 space-y-12">
-    <!-- Add your sections here -->
-    <section>
-      <h3 class="text-2xl font-semibold mb-4">🧠 Smart Systems</h3>
-      <p class="text-gray-700">We design custom Battery Management Systems and Smart SoC indicators.</p>
-    </section>
+  <main class="max-w-6xl mx-auto px-6 py-16 grid gap-12 md:grid-cols-3">
+    <!-- Feature Card -->
+    <div class="bg-white shadow-lg p-6 rounded-xl hover:shadow-xl transition">
+      <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/8a4e29cfaa3241c9976c3ed9fdb8c811-bFX37.png" class="h-24 mx-auto mb-4" alt="">
+      <h2 class="text-xl font-semibold mb-2 text-center">🧠 Smart Systems</h2>
+      <p class="text-gray-600 text-center">We design custom Battery Management Systems and Smart SoC indicators.</p>
+    </div>
 
-    <section>
-      <h3 class="text-2xl font-semibold mb-4">📡 IoT Integrations</h3>
-      <p class="text-gray-700">Connect your devices for real-time control and monitoring.</p>
-    </section>
+    <div class="bg-white shadow-lg p-6 rounded-xl hover:shadow-xl transition">
+      <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/iotremotemonitoring-_80CN.jpg" class="h-24 mx-auto mb-4" alt="">
+      <h2 class="text-xl font-semibold mb-2 text-center">📡 IoT Integrations</h2>
+      <p class="text-gray-600 text-center">Connect your devices for real-time control and monitoring.</p>
+    </div>
 
-    <section>
-      <h3 class="text-2xl font-semibold mb-4">🌱 Sustainable Energy</h3>
-      <p class="text-gray-700">Low degradation lithium-ion packs engineered for durability and performance.</p>
-    </section>
+    <div class="bg-white shadow-lg p-6 rounded-xl hover:shadow-xl transition">
+      <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/960pxSEGDVD430Printedcircuitboard4276-SuOoG.webp" class="h-24 mx-auto mb-4" alt="">
+      <h2 class="text-xl font-semibold mb-2 text-center">🌱 Sustainable Energy</h2>
+      <p class="text-gray-600 text-center">Low degradation lithium-ion packs engineered for performance & durability.</p>
+    </div>
   </main>
 
   <!-- Footer -->
-  <footer class="bg-gray-100 py-6 mt-16 text-center text-sm text-gray-600">
+  <footer class="bg-gray-100 py-6 text-center text-sm text-gray-600">
     © 2025 LabLabLab. All rights reserved.
   </footer>
 
