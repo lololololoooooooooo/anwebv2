@@ -1,78 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>AN Electronics | Smart Systems & Energy</title>
+
+  <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="icon" href="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/LogoWhatsApp700x3941-55GK-.webp" />
+
+  <!-- GSAP + ScrollTrigger + Lottie -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/LogoWhatsApp700x3941-55GK-.webp"/>
+
   <style>
+    /* glass navbar */
     .glass {
       backdrop-filter: blur(10px);
       background-color: rgba(255, 255, 255, 0.6);
     }
+
+    /* smooth scroll & scrollbar */
+    html {
+      scroll-behavior: smooth;
+    }
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #3b82f6;
+      border-radius: 3px;
+    }
+
+    /* 3-D hover on cards */
+    .feature-card {
+      transform-style: preserve-3d;
+      transition: transform 0.3s ease;
+    }
+    .feature-card:hover {
+      transform: rotateY(5deg) scale(1.03);
+    }
   </style>
 </head>
+
 <body class="font-sans bg-gray-50 text-gray-900">
 
-  <!-- Navbar -->
+  <!-- ========== NAVBAR ========== -->
   <header class="fixed top-0 w-full z-50 glass shadow-md">
     <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
-      <!-- Logo only -->
+      <!-- Logo -->
       <a href="index.html" class="flex items-center gap-2">
-        <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/nobackground-J3v0q.png" class="h-10 w-auto max-w-[120px] object-contain" alt="logo">
+        <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/nobackground-J3v0q.png"
+             class="h-10 w-auto max-w-[120px] object-contain" alt="logo">
       </a>
-      <!-- Navigation -->
-      <nav class="hidden md:flex space-x-6 font-medium text-gray-800">
-        <a href="index.html" class="hover:text-blue-600 transition">Home</a>
-        <a href="about.html" class="hover:text-blue-600 transition">About</a>
-        <a href="projects.html" class="hover:text-blue-600 transition">Projects</a>
-        <a href="contact.html" class="hover:text-blue-600 transition">Contact</a>
+
+      <!-- Hamburger (mobile) -->
+      <button id="hamburger" class="md:hidden text-2xl text-gray-800 focus:outline-none">
+        ☰
+      </button>
+
+      <!-- Nav links -->
+      <nav id="navLinks" class="hidden md:flex space-x-6 font-medium text-gray-800">
+        <a href="#home" class="hover:text-blue-600 transition">Home</a>
+        <a href="#about" class="hover:text-blue-600 transition">About</a>
+        <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+        <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="h-[90vh] bg-cover bg-center flex items-center justify-center text-center text-white pt-16" style="background-image: url('https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/GeminiGeneratedImageuw1ws2uw1ws2uw1w-tckwM.png');">
+  <!-- ========== HERO ========== -->
+  <section id="home"
+           class="h-[90vh] bg-cover bg-center flex items-center justify-center text-center text-white pt-16"
+           style="background-image: url('https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/GeminiGeneratedImageuw1ws2uw1ws2uw1w-tckwM.png');">
     <div class="bg-black/50 p-6 rounded-lg shadow-lg">
       <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to AN Electronics</h1>
       <p class="text-lg md:text-xl">Building Smart, Sustainable, and Next-Gen Electronics Projects ⚡🔋📡</p>
     </div>
   </section>
 
-  <!-- Main Content -->
-  <main class="max-w-6xl mx-auto px-6 py-16 grid gap-12 md:grid-cols-3">
-    <!-- Feature Cards -->
-    <div class="bg-white shadow-lg p-6 rounded-xl hover:shadow-xl transition">
-      <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/8a4e29cfaa3241c9976c3ed9fdb8c811-bFX37.png" class="h-24 mx-auto mb-4" alt="">
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="projects" class="max-w-6xl mx-auto px-6 py-16 grid gap-12 md:grid-cols-3">
+
+    <!-- Smart Systems -->
+    <div class="feature-card bg-white shadow-lg p-6 rounded-xl hover:shadow-xl transition">
+      <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_kkflmtur.json"
+                     background="transparent" speed="1" class="h-24 mx-auto mb-4" loop autoplay>
+      </lottie-player>
       <h2 class="text-xl font-semibold mb-2 text-center">🧠 Smart Systems</h2>
       <p class="text-gray-600 text-center">We design custom Battery Management Systems and Smart SoC indicators.</p>
     </div>
 
-    <div class="bg-white shadow-lg p-6 rounded-xl hover:shadow-xl transition">
-      <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/iotremotemonitoring-_80CN.jpg" class="h-24 mx-auto mb-4" alt="">
+    <!-- IoT Integrations -->
+    <div class="feature-card bg-white shadow-lg p-6 rounded-xl hover:shadow-xl transition">
+      <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_iorpbol0.json"
+                     background="transparent" speed="1" class="h-24 mx-auto mb-4" loop autoplay>
+      </lottie-player>
       <h2 class="text-xl font-semibold mb-2 text-center">📡 IoT Integrations</h2>
       <p class="text-gray-600 text-center">Connect your devices for real-time control and monitoring.</p>
     </div>
 
-    <div class="bg-white shadow-lg p-6 rounded-xl hover:shadow-xl transition">
-      <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/960pxSEGDVD430Printedcircuitboard4276-SuOoG.webp" class="h-24 mx-auto mb-4" alt="">
+    <!-- Sustainable Energy -->
+    <div class="feature-card bg-white shadow-lg p-6 rounded-xl hover:shadow-xl transition">
+      <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_v1yudlrx.json"
+                     background="transparent" speed="1" class="h-24 mx-auto mb-4" loop autoplay>
+      </lottie-player>
       <h2 class="text-xl font-semibold mb-2 text-center">🌱 Sustainable Energy</h2>
       <p class="text-gray-600 text-center">Low degradation lithium-ion packs engineered for performance & durability.</p>
     </div>
 
     <!-- Contact Button -->
     <div class="md:col-span-3 text-center mt-4">
-      <a href="contact.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-full shadow-lg transition-all duration-300">
+      <a href="#contact"
+         class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-full shadow-lg transition-all duration-300">
         📞 Contact Us
       </a>
     </div>
   </main>
 
-  <!-- Footer -->
-  <footer class="bg-gray-100 py-6 text-center text-sm text-gray-600">
+  <!-- ========== FOOTER ========== -->
+  <footer id="contact" class="bg-gray-100 py-6 text-center text-sm text-gray-600">
     © 2025 AN Electronics. All rights reserved.
   </footer>
 
+  <!-- ========== GSAP + CUSTOM JS ========== -->
+  <script>
+    /* ---------- register plugins ---------- */
+    gsap.registerPlugin(ScrollTrigger);
+
+    /* ---------- hero parallax ---------- */
+    gsap.to("section", {
+      backgroundPosition: "50% 100%",
+      ease: "none",
+      scrollTrigger: {
+        trigger: "section",
+        start: "top top",
+        end: "+=100%",
+        scrub: 1
+      }
+    });
+
+    /* ---------- 3-D cards ---------- */
+    gsap.from(".feature-card", {
+      scale: 0.8,
+      opacity: 0,
+      rotationX: 45,
+      transformPerspective: 1000,
+      transformOrigin: "top center",
+      stagger: 0.2,
+      duration: 1,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: "main",
+        start: "top 80%"
+      }
+    });
+
+    /* ---------- fade-up footer ---------- */
+    gsap.from("footer", {
+      y: 50,
+      opacity: 0,
+      duration: 1,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: "footer",
+        start: "top 95%"
+      }
+    });
+
+    /* ---------- mobile nav toggle ---------- */
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('hidden');
+    });
+    navLinks.querySelectorAll('a').forEach(link =>
+      link.addEventListener('click', () => navLinks.classList.add('hidden'))
+    );
+  </script>
 </body>
 </html>
