@@ -367,3 +367,61 @@
   src: url(file/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+/* ==========  BASIC RESET  ========== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==========  SMOOTH SCROLL  ========== */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ==========  CUSTOM SCROLLBAR  ========== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #3b82f6;   /* Tailwind blue-500 */
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2563eb;   /* Tailwind blue-600 */
+}
+
+/* ==========  GLASS NAVBAR  ========== */
+.glass {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* ==========  3-D HOVER EFFECT ON CARDS  ========== */
+.feature-card {
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+.feature-card:hover {
+  transform: rotateY(5deg) scale(1.03);
+}
+
+/* ==========  RESPONSIVE HERO TEXT  ========== */
+@media (max-width: 640px) {
+  section h1 {
+    font-size: 2.25rem;   /* text-4xl */
+  }
+  section p {
+    font-size: 1.125rem;  /* text-lg */
+  }
+}
+
+/* ==========  FOCUS RINGS FOR ACCESSIBILITY  ========== */
+a:focus,
+button:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
