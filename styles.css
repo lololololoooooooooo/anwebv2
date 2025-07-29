@@ -188,6 +188,20 @@ body {
   font-size: 0.875rem;
   color: #666;
 }
+.feature-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition for a lifted effect */
+}
+
+.feature-card:hover {
+  transform: translateY(-10px) rotateY(5deg) scale(1.03); /* Lift vertically by 10px, rotate, and scale */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow for a lifted look */
+}
 
 /* Smooth scroll & scrollbar */
 html {
@@ -202,3 +216,4 @@ html {
   background-color: #3b82f6;
   border-radius: 3px;
 }
+
