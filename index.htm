@@ -38,34 +38,58 @@
       position: fixed;
       top: 0;
       width: 100%;
-      padding: 1.2rem 5%;
+      padding: 1rem 5%;
       display: flex;
       justify-content: space-between;
       align-items: center;
       z-index: 1000;
       transition: var(--transition);
-      background: rgba(241, 250, 238, 0.95);
-      backdrop-filter: blur(10px);
-      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      background: rgba(241, 250, 238, 0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid rgba(168, 218, 220, 0.3);
     }
     
     .navbar.scrolled {
-      padding: 0.8rem 5%;
-      background: rgba(241, 250, 238, 0.98);
+      padding: 0.6rem 5%;
+      background: rgba(241, 250, 238, 0.85);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     }
     
-    .logo img {
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    
+    .logo-container {
+      width: 180px;
       height: 50px;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      padding: 0 1rem;
       transition: var(--transition);
+      box-shadow: 0 4px 15px rgba(51, 168, 255, 0.2);
     }
     
-    .navbar.scrolled .logo img {
+    .logo-text {
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: white;
+      letter-spacing: 0.5px;
+    }
+    
+    .navbar.scrolled .logo-container {
       height: 40px;
     }
     
     .nav-links {
       display: flex;
       gap: 2rem;
+      align-items: center;
     }
     
     .nav-links a {
@@ -75,6 +99,7 @@
       position: relative;
       padding: 0.5rem 0;
       transition: var(--transition);
+      font-size: 1.05rem;
     }
     
     .nav-links a:after {
@@ -103,6 +128,7 @@
       color: var(--accent);
       font-size: 1.8rem;
       cursor: pointer;
+      z-index: 1001;
     }
     
     /* ========== MAIN CONTENT ========== */
@@ -333,28 +359,41 @@
       }
       
       .nav-links {
-        position: absolute;
-        top: 100%;
+        position: fixed;
+        top: 0;
         left: 0;
         width: 100%;
+        height: 100vh;
         flex-direction: column;
-        background: rgba(241, 250, 238, 0.98);
-        padding: 2rem 0;
-        gap: 1.5rem;
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-        transition: var(--transition);
+        background: rgba(241, 250, 238, 0.95);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        justify-content: center;
+        gap: 2rem;
+        clip-path: circle(0% at 100% 0);
+        transition: all 0.6s ease-out;
       }
       
       .nav-links.active {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: circle(150% at 100% 0);
       }
       
       .nav-links a {
-        padding: 0.5rem 5%;
+        font-size: 1.4rem;
+        padding: 0.8rem 0;
       }
       
       .projects-grid {
         grid-template-columns: 1fr;
+      }
+      
+      .logo-container {
+        width: 160px;
+        height: 45px;
+      }
+      
+      .logo-text {
+        font-size: 1.3rem;
       }
     }
 
@@ -475,24 +514,14 @@
 
 <body>
   <!-- ========== NAVBAR ========== -->
-<header class="fixed top-0 w-full z-50 glass shadow-md">
-  <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
-    <!-- Logo only -->
-    <a href="index.html" class="flex items-center gap-2">
-      <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/nobackground-J3v0q.png"
-           class="h-10 w-auto max-w-[120px] object-contain" alt="logo">
-    </a>
-    <!-- Navigation -->
-    <nav class="hidden md:flex space-x-6 font-medium text-gray-800">
-      <a href="index.html" class="hover:text-blue-600 transition">Home</a>
-      <a href="about.html" class="hover:text-blue-600 transition">About</a>
-      <a href="projects.html" class="hover:text-blue-600 transition">Projects</a>
-      <a href="contact.html" class="hover:text-blue-600 transition">Contact</a>
-    </nav>
-  </div>
-</header>
-
-
+  <header class="navbar">
+    <div class="navbar-content">
+      <!-- Logo -->
+      <a href="index.html" class="logo">
+        <div class="logo-container">
+          <span class="logo-text">AN ELECTRONICS</span>
+        </div>
+      </a>
 
       <!-- Hamburger (mobile) -->
       <button id="hamburger" class="hamburger">☰</button>
@@ -669,12 +698,14 @@
     const navLinks = document.getElementById('navLinks');
     hamburger.addEventListener('click', () => {
       navLinks.classList.toggle('active');
+      hamburger.innerHTML = navLinks.classList.contains('active') ? '✕' : '☰';
     });
 
     // Close mobile menu when clicking links
     navLinks.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         navLinks.classList.remove('active');
+        hamburger.innerHTML = '☰';
       });
     });
 
