@@ -62,27 +62,12 @@
       align-items: center;
     }
     
-    .logo-container {
-      width: 180px;
+    .logo img {
       height: 50px;
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 8px;
-      padding: 0 1rem;
       transition: var(--transition);
-      box-shadow: 0 4px 15px rgba(51, 168, 255, 0.2);
     }
     
-    .logo-text {
-      font-weight: 700;
-      font-size: 1.4rem;
-      color: white;
-      letter-spacing: 0.5px;
-    }
-    
-    .navbar.scrolled .logo-container {
+    .navbar.scrolled .logo img {
       height: 40px;
     }
     
@@ -518,9 +503,7 @@
     <div class="navbar-content">
       <!-- Logo -->
       <a href="index.html" class="logo">
-        <div class="logo-container">
-          <span class="logo-text">AN ELECTRONICS</span>
-        </div>
+        <img src="https://cdn.cmsfly.com/687e00e078581a0013b2ebe7/images/nobackground-J3v0q.png" alt="AN Electronics Logo">
       </a>
 
       <!-- Hamburger (mobile) -->
@@ -683,6 +666,10 @@
     // Initialize GSAP animations
     gsap.registerPlugin(ScrollTrigger);
 
+    <script>
+    // Initialize GSAP animations
+    gsap.registerPlugin(ScrollTrigger);
+
     // Navbar scroll effect
     window.addEventListener('scroll', function() {
       const navbar = document.querySelector('.navbar');
@@ -708,6 +695,7 @@
         hamburger.innerHTML = '☰';
       });
     });
+
 
     // Feature card animations
     const featureCards = document.querySelectorAll('.feature-card');
