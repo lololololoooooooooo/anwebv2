@@ -707,57 +707,58 @@
       });
     });
 
+    // Feature card animations - THIS WAS THE ISSUE AREA
+    document.addEventListener('DOMContentLoaded', function() {
+      const featureCards = document.querySelectorAll('.feature-card');
+      const contactButton = document.querySelector('.contact-button');
+      const footer = document.querySelector('.footer');
 
-    // Feature card animations
-    const featureCards = document.querySelectorAll('.feature-card');
-    const contactButton = document.querySelector('.contact-button');
-    const footer = document.querySelector('.footer');
+      featureCards.forEach((card, index) => {
+        gsap.to(card, {
+          scrollTrigger: {
+            trigger: card,
+            start: 'top 80%',
+            toggleActions: 'play none none none',
+          },
+          y: 0,
+          opacity: 1,
+          duration: 0.8,
+          delay: index * 0.2,
+          onComplete: function() {
+            card.classList.add('animated');
+          }
+        });
+      });
 
-    featureCards.forEach((card, index) => {
-      gsap.to(card, {
+      // Contact button animation
+      gsap.to(contactButton, {
         scrollTrigger: {
-          trigger: card,
-          start: 'top 90%',
+          trigger: contactButton,
+          start: 'top 80%',
+          toggleActions: 'play none none none',
+        },
+        scale: 1,
+        opacity: 1,
+        duration: 0.8,
+        onComplete: function() {
+          contactButton.classList.add('animated');
+        }
+      });
+
+      // Footer animation
+      gsap.to(footer, {
+        scrollTrigger: {
+          trigger: footer,
+          start: 'top 95%',
           toggleActions: 'play none none none',
         },
         y: 0,
         opacity: 1,
         duration: 0.8,
-        delay: index * 0.2,
         onComplete: function() {
-          card.classList.add('animated');
+          footer.classList.add('animated');
         }
       });
-    });
-
-    // Contact button animation
-    gsap.to(contactButton, {
-      scrollTrigger: {
-        trigger: contactButton,
-        start: 'top 90%',
-        toggleActions: 'play none none none',
-      },
-      scale: 1,
-      opacity: 1,
-      duration: 0.8,
-      onComplete: function() {
-        contactButton.classList.add('animated');
-      }
-    });
-
-    // Footer animation
-    gsap.to(footer, {
-      scrollTrigger: {
-        trigger: footer,
-        start: 'top 95%',
-        toggleActions: 'play none none none',
-      },
-      y: 0,
-      opacity: 1,
-      duration: 0.8,
-      onComplete: function() {
-        footer.classList.add('animated');
-      }
     });
   </script>
 </body>
